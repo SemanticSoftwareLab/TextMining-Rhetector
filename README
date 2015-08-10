@@ -1,0 +1,68 @@
+Rhetector
+http://www.semanticsoftware.info/rhetector
+
+Release 1.0, 10.08.2015
+
+Copyright (c) 2015, Semantic Software Lab, http://www.semanticsoftware.info
+	Rene Witte
+	Bahar Sateli
+
+
+FILES
+=====
+
+Rhetector/
+  |
+  +-- build.properties
+  |     property definitions that control the build process go in here,
+  |     in particular, make sure that gate.home points to your copy of GATE
+  +-- build.xml
+  |     Ant build file for building the Rhetector plugin
+  +-- buildtest.xml
+  |     Ant build file testing the Rhetector plugin
+  +-- COPYING
+  |     GNU GPL v3 License for Rhetector
+  +-- COPYING.LESSER
+  |     GNU LGPL v3 License for Rhetector
+  +-- creole.xml
+  |     plugin configuration file for GATE 
+  +-- doc/
+  |     Rhetector end-user documentation, Javadocs
+  +-- Rhetector.jar 
+  |     JAR archive for the GATE plugin manager containing the Rhetector PR
+  +-- Rhetector_Demo.jar 
+  |     the Rhetector demo pipeline for the GATE plugin manager containing the Rhetector PR
+  +-- version.properties
+  |     hold the versioning information for the Rhetector plugin
+  +-- package
+  |     Example pipeline for Rhetector
+  +-- README
+  |     this file
+  +-- resources/
+  |     files used by the plugin. Currently, holds the gazetteer lists and JAPE rules.
+  +-- src/
+  |     source code for Rhetector gazetteer and transducer PRs
+  +-- test/
+  |     source code for Rhetector unit tests
+
+QUICK START GUIDE
+=================
+For the impatient, here's the quick start guide:
+1. Start GATE (v8 or better), go to the plugin manager
+2. Install Rhetector through the Semantic Software Lab repository
+3. Enable the new Rhetector plugin
+4. Load the example pipeline from "Ready Made Applications"
+
+For more information, read the documentation (and the GATE user's guide).
+
+
+LICENSE
+=======
+Rhetector is licensed under the GNU Lesser General Public License v3 (LGPL3),
+see the LICENSE file or http://www.gnu.org/licenses/lgpl-3.0.en.html
+
+
+SUPPORT
+=======
+For questions, comments, or even success reports, please post in the SSL Forum 
+http://www.semanticsoftware.info/forums/tools-resources-forum/durm-corpus-wiki-tools

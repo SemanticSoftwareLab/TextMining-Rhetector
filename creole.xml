@@ -1,0 +1,5 @@
+<CREOLE-DIRECTORY ID="Rhetector" VERSION="1.0-r1004" GATE-MIN="8.1"
+        DESCRIPTION="Rhetorical Entity Detector (Rhetector)" HELPURL="http://www.semanticsoftware.info/rhetector">
+        <JAR SCAN="true">Rhetector.jar</JAR>
+        <JAR SCAN="true">Rhetector_Demo.jar</JAR>
+</CREOLE-DIRECTORY>
