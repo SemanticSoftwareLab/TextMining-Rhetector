@@ -1,4 +1,5 @@
 # TextMining-Rhetector
-Rhetector is a GATE component for automatic extraction of rhetorical entities from scientific literature.
+Rhetector is a GATE component for the automatic detection of rhetorical entities in scientific literature.
 
-See http://www.semanticsoftware.info/rhetector for more information.
+See http://www.semanticsoftware.info/rhetector for more information about Rhetector.
+See http://assistant.semanticsoftware.info/job/TextMining-Rhetector/ for a continuous integration build.
